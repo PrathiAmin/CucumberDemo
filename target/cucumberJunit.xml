@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.769">
+<testcase classname="Application Login" name="Home page  valid Login" time="23.899">
+<system-out><![CDATA[Given User is on the landing page...........................................passed
+When User clicks on the Login option and enters valid user@phptravels.com and demouser.passed
+Then HomePage is displayed with "Hi, Demo User".............................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-22T07:29:08.880Z",
+        "line": 9,
+        "name": "Home page  valid Login",
+        "description": "",
+        "id": "application-login;home-page--valid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterFavTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16516000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3917000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on the Login option and enters valid user@phptravels.com and demouser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user@phptravels.com",
+                  "offset": 49
+                },
+                {
+                  "val": "demouser",
+                  "offset": 73
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_clicks_on_the_login_option_and_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3067000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "HomePage is displayed with \"Hi, Demo User\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hi, Demo User",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.homepage_is_displayed_with_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FavTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
